@@ -6,8 +6,10 @@ Script para envio de emails utilizando a Lib Smtplib, do Python e templates HTML
 
 ## Prints dos Emails na caixa de mensagem e aberto.
 
-<img width="400" src="/images/email-print1.png">
-<img width="600" src="/images/email-print-2.png">
+Print da caixa de mensagens
+<img width="400" src="/images/email-print1.png" alt="Print da caixa de mensagens">
+Print do email
+<img width="600" src="/images/email-print-2.png" alt="Print do email">
 
 ## Descrição do projeto
 
@@ -17,17 +19,14 @@ A minha ideia veio através da necessidade de integrar uma página de contato em
 
 Após o usuário preencher as suas informações na parte de **Contato** em um site, essa informação do formúlario ser passada via API, e a API irá se encarregar de chamar a função que fará o envio do Email para o email destinatario (o meu, nesse caso), com as informações passadas no formúlario, desta forma eu tenho um notify system prático e simples que pode inclusive ser estilizado facilmente.
 
-Use com responsabilidade, pois ao mesmo tempo que é uma ferramenta muito útil, também é uma ferramenta bastante poderosa, levando em consideração que pode ser enviado até 10 mil emails por dia através dela.
-
-
 ## Requisitos
 
 | Linguagem / Libs | Descrição |
-| -----------------|-----------|
+| --------------------------------------|------------|
 | **[Python](https://www.python.org/)** | **3.11.5** |
 | *[Smtlib](https://docs.python.org/3/library/smtplib.html)* | **builtin** |
 | *[Email](https://docs.python.org/3/library/email.html)* | **bultin** |
-| *[Python-Dotenv](https://pypi.org/project/python-dotenv/)* * | _Instação necessária_
+| *[Python-Dotenv](https://pypi.org/project/python-dotenv/)* * | _Instação necessária_ |
 
 
 
@@ -72,3 +71,4 @@ pip install python-dotenv
 
 - Pensando na ideia de que não é uma boa prática deixarmos os usuário esperando por uma confirmação de que o email foi enviado ou não, pretendo trazer em breve algo que faz a validação dos dados ainda na API, e então de forma assincrona faz a execução desse script, e ao mesmo tempo retorna para o usuário a confirmação de que o email foi enviado, assim damos ao usuário uma experiência melhor, por não ter que esperar que o email seja enviado para só então a API retornar a resposta de confirmação de envio.
 
+- Use com responsabilidade, pois ao mesmo tempo que é uma ferramenta muito útil, também é uma ferramenta bastante poderosa, levando em consideração que pode ser enviado até 10 mil emails por dia através dela.
