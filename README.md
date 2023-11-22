@@ -5,11 +5,17 @@ Script para envio de emails utilizando a Lib Smtplib, do Python e templates HTML
 É possível você mesmo criar um template do HTML, passando o Head com o Style, e o Body. Para assim enviar um email com uma aparencia mais agradavel.
 
 ## Prints dos Emails na caixa de mensagem e aberto.
-
-Print da caixa de mensagens
+<div style="display:flex; flex-direction: column">
+<p>Print da caixa de mensagens:</p>
 <img width="400" src="/images/email-print1.png" alt="Print da caixa de mensagens">
-Print do email
+</div>
+
+----- 
+
+<div style="display:flex; flex-direction: column">
+<p>Print do email:</p>
 <img width="600" src="/images/email-print-2.png" alt="Print do email">
+</div>
 
 ## Descrição do projeto
 
