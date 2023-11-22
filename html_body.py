@@ -39,9 +39,6 @@ def return_html_head() -> str:
 
 def return_html_body(contato_nome:str, contato_from:str,
     contato_telefone:str,time:str, MSG:str) -> str:
-    """
-    
-    """
     
     html_body = \
     f"""
