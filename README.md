@@ -56,11 +56,15 @@ pip install python-dotenv
 
 É atraves deste pacote que conseguiremos extrair dados do arquivo **.env**.
 
+--- 
 
 ## Criação de conta Google para envio de emails
 
 #### Ativando o *IMAP*
-<Foto dos tutoriais>
+<div style="display:flex; flex-direction: column">
+<p>Print do email:</p>
+<img width="600" src="/images/passo 1-4.png" alt="Print passo a passo 1 até 4">
+</div>
 
 
 1. Já na sua conta Google, clique no menu em formato cúbico na parte superior direita, em seguida vá em *"See all settings"*.
@@ -68,7 +72,13 @@ pip install python-dotenv
 3. Após ativar o *IMAP*, vá ao final da página onde haverá um botão para salvar as mudanças.
 
 ---
+
 #### Ativando verificação em duas etapas e criando senha para o app (para fazer o login no servidor SMTP), para esse passo será necessário um celular para fazer a verificação.
+
+<div style="display:flex; flex-direction: column">
+<p>Print do email:</p>
+<img width="600" src="/images/passo 5-8.png" alt="Print passo a passo 5 até 8">
+</div>
 
 4. Vá novamente no menu na parte superior direita da página, em seguida clique no ícone **"Account"**, isso o levará para as configurações da conta **Google**.
 5. Vá para o menu lateral na parte esquerda da página, clique em *"Segurança"*, em seguida procure por **"Verificação em duas etapas"**, faço o processo de verificação, para esse passo será necessário um celular.
