@@ -84,7 +84,7 @@ pip install python-dotenv
 5. Vá para o menu lateral na parte esquerda da página, clique em *"Segurança"*, em seguida procure por **"Verificação em duas etapas"**, faço o processo de verificação, para esse passo será necessário um celular.
 6. Após ativado a verificação em duas etapas, no menu de busca na parte superior, procure por **"App"**, irá aparecer algumas opções, selecione **"Senhas de app"**.
 7. Na página de **App**, dê um nome ao App que você irá criar (isso é apenas para fins informativos), clique no botão **"Criar"**.
-8. Neste momento uma aba se abrirá, com a senha do App gerada, copie essa senha e salve, será necessária para a variavel *.env*.
+8. Neste momento uma aba se abrirá, com a senha do App gerada, copie essa senha e salve, será necessária para a variavel *.env*, porém sem o espaçamento entre elas.
 
 
 ## Considerações finais
