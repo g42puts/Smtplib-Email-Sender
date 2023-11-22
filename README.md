@@ -40,7 +40,11 @@ Após o usuário preencher as suas informações na parte de **Contato** em um s
 
 Para darmos inicio ao uso, vamos primeiro fazer o clone ou download do repositório.
 
-Após este processo, vamos fazer a instalação do package *Python-dotenv*.
+```
+git clone https://github.com/g42puts/Smtplib-Email-Sender.git
+```
+
+Após este processo, vamos fazer a instalação do package *Python-dotenv*, passo a passo abaixo.
 
 
 ### Instação do package *Python-dotenv*
