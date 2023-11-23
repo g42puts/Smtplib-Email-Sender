@@ -19,9 +19,9 @@ Script para envio de emails utilizando a Lib Smtplib, do Python e templates HTML
 
 ## Descrição do projeto
 
-O principal objetivo deste projeto, foi trazer de uma forma simples, o envio de Emails, no intuito de informar através de um email, porém dependendo da sua necessidade, a sua utilidade pode ser facilmente flexibilizada e adaptada conforme sua necessidade.
-
 Eu tinha um problema, que era enviar para mim mesmo as informações que o usuário iria preencher no site, e assim, surgiu essa ideia.
+
+O principal objetivo deste projeto, foi fazer de uma forma simples, o envio de Emails, no intuito de informar através de um email, porém dependendo da sua necessidade, a sua utilidade pode ser facilmente flexibilizado e adaptado conforme sua necessidade.
 
 Após o usuário preencher as suas informações na parte de **Contato** em um site, essa informação do formulário será passada via API, e a API irá se encarregar de chamar a função que fará o envio do Email para o email destinatário (o meu, nesse caso), com as informações passadas no formulário, desta forma eu tenho um **notify system** prático e simples que pode inclusive ser estilizado facilmente.
 
