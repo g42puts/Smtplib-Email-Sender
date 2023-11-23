@@ -87,6 +87,17 @@ pip install python-dotenv
 8. Neste momento uma aba se abrirá, com a senha do App gerada, copie essa senha e salve, será necessária para a variavel *.env*, porém sem o espaçamento entre elas.
 
 
+#### Agora basta criar o arquivo **.env** e preencher os dados.
+
+```
+SMTPEMAIL_HOST      = smtp.gmail.com                < Servidor de emails do Google >
+SMTPEMAIL_PORT      = 587                           < Porta do servidor >
+SMTPEMAIL_USER      = seuemailaqui@gmail.com        < Email da conta que será usada >
+SMTPEMAIL_PASSWORD  = senhadoappaqui                < A senha obtida na página de criação do App >
+SMTPEMAIL_FROM      = seuemailaqui@gmail.com        < Email da conta que será usada >
+SMTPEMAIL_TO        = emaildestinatario@gmail.com   < O Email para quem você enviará o Email>
+```
+
 ## Considerações finais
 
 - Pensando na ideia de que não é uma boa prática deixarmos os usuário esperando por uma confirmação de que o email foi enviado ou não, pretendo trazer em breve algo que faz a validação dos dados ainda na API, e então de forma assincrona faz a execução desse script, e ao mesmo tempo retorna para o usuário a confirmação de que o email foi enviado, assim damos ao usuário uma experiência melhor, por não ter que esperar que o email seja enviado para só então a API retornar a resposta de confirmação de envio.
